@@ -20,7 +20,7 @@ from sklearn.tree import plot_tree
 # Load Dataset
 # ------------------------------------------------------------
 print("\n==================== DATA LOADING ====================")
-data = pd.read_csv("bank dataset for assignment.csv")
+data = pd.read_csv("Bank dataset.csv")
 print("Dataset loaded successfully")
 print("Number of records:", data.shape[0])
 print("Number of attributes:", data.shape[1])
